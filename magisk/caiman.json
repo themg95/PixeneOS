@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "full": {
+    "location_ota": "https://github.com/pixincreate/PixeneOS/releases/download/2025070800/caiman-2025070800-magisk-29001-f6317f4.zip",
+    "location_csig": "https://github.com/pixincreate/PixeneOS/releases/download/2025070800/caiman-2025070800-magisk-29001-f6317f4.zip.csig"
+  }
+}
