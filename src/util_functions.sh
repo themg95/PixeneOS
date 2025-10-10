@@ -207,12 +207,14 @@ function patch_ota() {
     args+=("--pass-ota-env-var" "PASSPHRASE_OTA")
 
     # Modules
+    args+=("--module-custota" "${WORKDIR}/modules/custota.zip")
     args+=("--module-msd" "${WORKDIR}/modules/msd.zip")
     args+=("--module-bcr" "${WORKDIR}/modules/bcr.zip")
     args+=("--module-oemunlockonboot" "${WORKDIR}/modules/oemunlockonboot.zip")
     args+=("--module-alterinstaller" "${WORKDIR}/modules/alterinstaller.zip")
 
     # Module signatures
+    args+=("--module-custota-sig" "${WORKDIR}/signatures/custota.zip.sig")
     args+=("--module-msd-sig" "${WORKDIR}/signatures/msd.zip.sig")
     args+=("--module-bcr-sig" "${WORKDIR}/signatures/bcr.zip.sig")
     args+=("--module-oemunlockonboot-sig" "${WORKDIR}/signatures/oemunlockonboot.zip.sig")
@@ -484,7 +486,7 @@ function check_toml_env() {
 
 function supported_tools() {
   local arg="${1:-}"
-  local tools=("avbroot" "afsr" "alterinstaller" "custota-tool" "msd" "bcr" "oemunlockonboot" "my-avbroot-setup")
+  local tools=("avbroot" "afsr" "alterinstaller" "custota" "custota-tool" "msd" "bcr" "oemunlockonboot" "my-avbroot-setup")
 
   if [[ "${arg}" == "cdd" ]]; then
     echo "${tools[@]}"
