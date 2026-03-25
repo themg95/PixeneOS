@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/pixincreate/PixeneOS/releases/download/2025100300/caiman-2025100300-magisk-30400-83e179f.zip",
-    "location_csig": "https://github.com/pixincreate/PixeneOS/releases/download/2025100300/caiman-2025100300-magisk-30400-83e179f.zip.csig"
+    "location_ota": "https://github.com/themg95/PixeneOS/releases/download/2026032000/caiman-2026032000-magisk-v30.7-03c2607.zip",
+    "location_csig": "https://github.com/themg95/PixeneOS/releases/download/2026032000/caiman-2026032000-magisk-v30.7-03c2607.zip.csig"
   }
 }
