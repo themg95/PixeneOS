@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/pixincreate/PixeneOS/releases/download/2025071900/caiman-2025071900-rootless-bcfa19a.zip",
-    "location_csig": "https://github.com/pixincreate/PixeneOS/releases/download/2025071900/caiman-2025071900-rootless-bcfa19a.zip.csig"
+    "location_ota": "https://github.com/themg95/PixeneOS/releases/download/2026032000/caiman-2026032000-rootless-03c2607.zip",
+    "location_csig": "https://github.com/themg95/PixeneOS/releases/download/2026032000/caiman-2026032000-rootless-03c2607.zip.csig"
   }
 }
